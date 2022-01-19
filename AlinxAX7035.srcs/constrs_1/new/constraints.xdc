@@ -28,15 +28,15 @@ set_property PACKAGE_PIN L13 [get_ports {button[3]}]
 
 set_property IOSTANDARD LVCMOS33 [get_ports {button[*]}]
 
-# Segments
-set_property PACKAGE_PIN J5  [get_ports {segments[0]}]
-set_property PACKAGE_PIN M3  [get_ports {segments[1]}]
-set_property PACKAGE_PIN J6  [get_ports {segments[2]}]
-set_property PACKAGE_PIN H5  [get_ports {segments[3]}]
-set_property PACKAGE_PIN G4  [get_ports {segments[4]}]
-set_property PACKAGE_PIN K6  [get_ports {segments[5]}]
-set_property PACKAGE_PIN K3  [get_ports {segments[6]}]
-set_property PACKAGE_PIN H4  [get_ports {segments[7]}]
+# segs
+set_property PACKAGE_PIN J5  [get_ports {segs[0]}]
+set_property PACKAGE_PIN M3  [get_ports {segs[1]}]
+set_property PACKAGE_PIN J6  [get_ports {segs[2]}]
+set_property PACKAGE_PIN H5  [get_ports {segs[3]}]
+set_property PACKAGE_PIN G4  [get_ports {segs[4]}]
+set_property PACKAGE_PIN K6  [get_ports {segs[5]}]
+set_property PACKAGE_PIN K3  [get_ports {segs[6]}]
+set_property PACKAGE_PIN H4  [get_ports {segs[7]}]
 
 set_property PACKAGE_PIN M2  [get_ports {seg_sel[0]}]
 set_property PACKAGE_PIN N4  [get_ports {seg_sel[1]}]
@@ -45,5 +45,5 @@ set_property PACKAGE_PIN L4  [get_ports {seg_sel[3]}]
 set_property PACKAGE_PIN M16 [get_ports {seg_sel[4]}]
 set_property PACKAGE_PIN M17 [get_ports {seg_sel[5]}]
 
-set_property IOSTANDARD LVCMOS33 [get_ports {segments[*]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {segs[*]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {seg_sel[*]}]
